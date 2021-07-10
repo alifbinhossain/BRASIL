@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: 'Otomanopee One', sans-serif;
+    color: #777777;
+    line-height: 1.6;
+    background-color: black;
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0,.35),rgba(0, 0, 0,.75)), url(../images/neymar4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:left;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: rgb(255, 255, 0);
+
+
+}
+.nav-box:first-child{
+margin-left: 50px;
+}
+.navigation__logo{
+    width: 8rem;
+   
+}
+.navigation__list{
+    list-style: none;
+    display: flex;
+}
+.navigation__list--item{
+    margin-right: 3rem;
+
+}
+.navigation__link{
+    text-decoration: none;
+   background-color: yellowgreen;
+   padding: 1rem 2rem;
+   color: #fff;
+   border-radius: 3px;
+   box-shadow: 0 2rem 4rem rgba(0,0,0,.1);
+   transition: all .2s ease;
+
+}
+.navigation__link:hover{
+    color: yellowgreen;
+    background-color: #fff;
+}
+.heading-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+.heading-primary{
+    font-size: 8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: 5px solid yellowgreen;
+    padding: 2px 20px;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+}
+.heading-secondary{
+    font-size: 4rem;
+    letter-spacing: 2px;
+ 
+}
+.blue{
+    color: skyblue;
+}
+.green{
+    color: yellow;
+}
+.players{
+    margin: 0;
+    padding: 1rem 0;
+    color: #fff;
+  
+}
+.players-header{
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 2rem 4rem;
+}
+.players__heading{ 
+    font-size: 4rem;
+    letter-spacing: 1.2px;
+    color: yellowgreen;
+    
+ 
+}
+.player-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+
+
+}
+.player-card{
+    width: 25%;
+    border: 3px solid yellowgreen;
+    margin-bottom: 6rem;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+
+}
+.player-photo{
+    width: 100%;
+    height:250px ;
+    border-radius: 1.5rem;
+    object-fit: cover;
+    object-position: top;
+
+}
+.player-name{
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    color: yellowgreen;
+    letter-spacing: 1.3px;
+
+}
+.player-details{
+    margin: 2rem 0;
+    line-height: 1.7;
+    color: lightgray;
+
+}
+
+
+/* Button */
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    border: 2px solid currentColor;
+    letter-spacing: 2px;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    backface-visibility: hidden;
+    margin-right: 4rem;
+  
+
+  }
+  .btn:hover{
+    background-color: yellowgreen;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+   
+  }
+  .footer{
+      background-color: yellowgreen;
+      padding: 3rem;
+      text-align: center;
+  }
+  .heading-footer{
+      font-size: 3rem;
+      color: white;
+      margin-bottom: 1rem;
+  }
+  .copyright{
+    color:black;
+  }
+
